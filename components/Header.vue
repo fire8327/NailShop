@@ -5,7 +5,7 @@
             <div class="flex items-center justify-between gap-6">
                 <NuxtLink to="/" class="font-Caveat font-bold text-4xl">NailShop</NuxtLink>
                 <nav class="flex items-center gap-6 transition-all duration-500 z-[4] max-md:flex-col max-md:bg-white max-md:w-full max-md:absolute max-md:left-0 max-md:py-4" :class="isMenuShow ? 'max-md:top-[calc(100%+1px)]' : 'max-md:top-0 max-md:-translate-y-full'">
-                    <NuxtLink class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-500 hover:after:w-full">Каталог</NuxtLink>
+                    <NuxtLink to="/catalog" class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-500 hover:after:w-full">Каталог</NuxtLink>
                     <NuxtLink class="transition-all duration-500 hover:text-[#F242EE]/70">
                         <Icon class="text-3xl" name="material-symbols:person"/>
                     </NuxtLink>
