@@ -53,19 +53,19 @@
                 <div class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
                     <img src="/images/news/1.png" alt="" class="w-full transition-all duration-500 group-hover:scale-110 aspect-square object-cover">
                 </div>
-                <p>МОЩНЫЙ И КОМПАКТНЫЙ АППАРАТ ДЛЯ МАНИКЮРА ОТ AEROPUFFING</p>
+                <p>Мощный и компактный аппарат для маникюра от aeropuffing</p>
             </div>
             <div class="flex flex-col gap-4">
                 <div class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
                     <img src="/images/news/2.jpg" alt="" class="w-full transition-all duration-500 group-hover:scale-110 aspect-square object-cover">
                 </div>
-                <p>ПРОФЕССИОНАЛЬНЫЕ КИСТИ ДЛЯ МАНИКЮРА TNL PROFESSIONAL</p>
+                <p>Профессиональные кисти для маникюра TNL PROFESSIONAL</p>
             </div>
             <div class="flex flex-col gap-4">
                 <div class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
                     <img src="/images/news/3.png" alt="" class="w-full transition-all duration-500 group-hover:scale-110 aspect-square object-cover">
                 </div>
-                <p>ГЕЛЬ СО СТЕКЛОВОЛОКНОМ "SТЕКЛО" ДЛЯ УКРЕПЛЕНИЯ НОГТЕЙ И РЕМОНТА ТРЕЩИН ОТ BSG</p>
+                <p>Гель со стекловолокном "SТЕКЛО" для укрепления ногтей и ремонта трещин от BSG</p>
             </div>
         </div>
     </div>
