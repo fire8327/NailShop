@@ -6,6 +6,13 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/google-fonts"
   ],
+  googleFonts: {
+    families: {
+      'Comforter': true,
+      'Roboto': true,
+      'Caveat': true
+    }
+  },
   postcss: {
     plugins: {
       cssnano: false 
