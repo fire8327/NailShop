@@ -2,8 +2,8 @@
     <div class="flex flex-col gap-6 items-center justify-center">
         <p class="text-2xl font-semibold tracking-widest">Авторизация</p>
         <form class="flex flex-col gap-4 w-full md:w-1/2 xl:w-1/3">
-            <input type="email" class="px-4 py-2 border border-[#F7BDF6]/70 rounded-xl focus:outline-none" placeholder="Email">
-            <input type="text" class="px-4 py-2 border border-[#F7BDF6]/70 rounded-xl focus:outline-none" placeholder="Пароль">
+            <input required type="email" class="px-4 py-2 border border-[#F7BDF6]/70 rounded-xl focus:outline-none" placeholder="Email">
+            <input required type="password" class="px-4 py-2 border border-[#F7BDF6]/70 rounded-xl focus:outline-none" placeholder="Пароль">
             <button class="px-4 py-2 rounded-xl border text-white hover:text-[#F242EE]/70 border-[#F242EE]/70 bg-[#F242EE]/70 transition-all duration-500 hover:bg-transparent">Войти</button>
         </form>
         <div class="flex items-center justify-between gap-4 w-full md:w-1/2 xl:w-1/3">

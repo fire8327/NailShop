@@ -12,7 +12,7 @@
                     <NuxtLink to="/favourites" class="transition-all duration-500 hover:text-[#F242EE]/70">
                         <Icon class="text-3xl" name="material-symbols:favorite-rounded"/>
                     </NuxtLink>
-                    <NuxtLink class="transition-all duration-500 hover:text-[#F242EE]/70">
+                    <NuxtLink to="/cart" class="transition-all duration-500 hover:text-[#F242EE]/70">
                         <Icon class="text-3xl" name="ic:sharp-shopping-cart"/>
                     </NuxtLink>
                     <NuxtLink to="/auth" class="px-4 py-2 rounded-xl opacity-70 border border-[#F242EE] bg-[#F242EE] text-white transition-all duration-500 hover:bg-transparent hover:text-[#F242EE]">Вход</NuxtLink>
