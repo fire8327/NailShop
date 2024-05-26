@@ -2,30 +2,7 @@
     <div class="flex flex-col gap-6">
         <p class="text-2xl font-semibold tracking-widest">Новинки</p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-            <div class="flex flex-col gap-4">
-                <NuxtLink class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
-                    <img src="/images/products/1.jpg" alt="" class="transition-all duration-500 group-hover:scale-110 aspect-[7/10] object-cover">
-                </NuxtLink>
-                <p>Фреза ёлка зеленая Wilson</p>
-            </div>
-            <div class="flex flex-col gap-4">
-                <NuxtLink class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
-                    <img src="/images/products/2.jpg" alt="" class="transition-all duration-500 group-hover:scale-110 aspect-[7/10] object-cover">
-                </NuxtLink>
-                <p>База shell</p>
-            </div>
-            <div class="flex flex-col gap-4">
-                <NuxtLink class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
-                    <img src="/images/products/3.jpg" alt="" class="transition-all duration-500 group-hover:scale-110 aspect-[7/10] object-cover">
-                </NuxtLink>
-                <p>Гель Розовая жемчужина</p>
-            </div>
-            <div class="flex flex-col gap-4">
-                <NuxtLink class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
-                    <img src="/images/products/4.jpeg" alt="" class="transition-all duration-500 group-hover:scale-110 aspect-[7/10] object-cover">
-                </NuxtLink>
-                <p>Антисептик малиновый смузи 150 мл</p>
-            </div>
+            <ProductCard v-for="n in 4"></ProductCard>
         </div>
     </div>
     <img src="/images/hero/main.jpg" alt="" class="w-full rounded-xl border border-[#F7BDF6]/70">

@@ -20,13 +20,7 @@
             </div>
             <div class="lg:w-3/4">
                 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-                    <div class="flex flex-col gap-4" v-for="n in 10">
-                        <NuxtLink class="overflow-hidden rounded-xl border border-[#F7BDF6]/70 group shadow-[0px_0px_13px_-7px_black]">
-                            <img src="/images/products/4.jpeg" alt="" class="transition-all duration-500 group-hover:scale-110 aspect-[7/10] object-cover">
-                        </NuxtLink>
-                        <p>Антисептик малиновый смузи 150 мл</p>
-                        <p class="text-2xl font-semibold tracking-widest">350 ₽</p>
-                    </div>
+                    <ProductCard v-for="n in 10"></ProductCard>
                 </div>
             </div>   
         </div>
